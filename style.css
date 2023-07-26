@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bungee Spice', cursive;
+}
+.outer-box{
+              width: 100vw;
+              height: 100vh;
+              background:linear-gradient(to top right,pink,blue);
+}
+.inner-box{
+    width: 400px;
+    margin: 0 auto; 
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background: white;
+      border-radius: 8px ;
+      box-shadow: 2px 2px 5px  blueviolet;
+      z-index: 2 ;
+
+}
+.Signup-header{
+      text-align: center;
+}
+h1{
+    font-size: 2.5rem;
+}
+.Signup-body{
+             margin: 20px 0;
+             background-color: white;
+}
+.Signup-body p{
+          margin: 10px 0;
+         
+}
+.Signup-body p label{
+          display: block;
+          font-weight: bolder;
+     
+}
+.Signup-body p input{
+    width: 100%;
+    padding:10px;
+    border:2px solid;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 2px ;
+}
+.Signup-body p input[type="submit"]{
+         background-color:blueviolet;
+         border: none;
+         color: white;
+         cursor: pointer; 
+}
+.Signup-body p input[type="submit"]:hover{
+          background-color:rgb(71, 5, 133);
+}
+.Signup-Footer p{
+        text-align: center;
+        
+}
+.circle{
+          width: 200px;
+          height: 200px;
+          border-radius:100px ;
+          background: linear-gradient( to top right,red,blue);
+    position: absolute;
+}
+.c1{
+    top: 100px;
+    left: 40px;
+}
+.c2{
+      bottom: 200px;
+      right: 50px;
+}
