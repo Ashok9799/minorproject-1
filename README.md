@@ -1,2 +1,2 @@
-# minorproject-1
+# Signup page
 Signup page 
